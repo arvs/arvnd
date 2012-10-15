@@ -3,7 +3,7 @@ gem 'sinatra'
 gem 'mustache'
 gem 'zurb-foundation'
 gem 'unicorn'
-gem 'capistrano'
+gem 'mina'
 
 group :development do
   gem 'shotgun'
