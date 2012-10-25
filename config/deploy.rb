@@ -1,13 +1,18 @@
 require "mina/bundler"
 require "mina/rails"
 require "mina/git"
+require "mina/rvm"
 
 set :domain, "rumney"
 set :deploy_to, "/srv/www/arvnd.com"
 set :repository, "git://github.com/arvindx007/arvnd.git"
 set :branch, "master"
-
+set :rvm_path, "/usr/local/rvm/scripts/rvm"
 set :shared_paths, ["log", "tmp/pids", "tmp/sockets"]
+
+task :environment do
+  invoke :'rvm:use[ruby-1.9.2]'
+end
 
 task :setup => :environment do
   queue! %[mkdir -p "#{deploy_to}/shared/log"]
