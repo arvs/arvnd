@@ -8,6 +8,7 @@ class App < Sinatra::Base
   configure :production, :development do
     enable :logging
   end
+  
   configure do
     Compass.configuration do |config|
       config.project_path = File.dirname __FILE__
@@ -32,7 +33,7 @@ class App < Sinatra::Base
   get '/' do
     mustache :index
   end
-  
+
   get "/stylesheets/*.css" do |path|
     content_type "text/css", charset: "utf-8"
     scss :"scss/#{path}"
