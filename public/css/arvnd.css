@@ -78,7 +78,67 @@ body{
 .horiz-white{
 	background-color:white;
 	position:fixed;
-	height: 4px;
+	height: 2px;
 	width: 100%;
 	z-index: -1;
+}
+ul {
+	list-style: none outside;
+	margin-bottom: 10px;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+a, a:visited{
+	color: #333;
+}
+img {
+	margin:0;
+	padding:0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.about {
+	text-align: center;
+	margin-top: 60px;
+}
+.about ul {                                                                  
+     margin-bottom: 10px;
+}
+ 
+.about ul li {
+	display: inline;
+	margin: 0 3px;
+}
+ 
+.about ul a:hover {
+	opacity: 0.7;
+}
+
+a:-webkit-any-link {
+	cursor: auto;
+}
+li {
+	line-height: 18px
+	text-align: -webkit-match-parent;
+}
+p.t-name {
+	font-size: 28px;
+	font-weight: 600;
+	font-family: 'Contrail One', cursive;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+p.t-type {
+	font-size: 16px;
+	font-weight: 300;
+	font-style: italic;
+	color: #707070;
+	margin-bottom: 10px;
 }
