@@ -104,7 +104,8 @@ img {
 }
 .about {
 	text-align: center;
-	margin-top: 60px;
+	display:block;
+	margin-top: 20%;
 }
 .about ul {                                                                  
      margin-bottom: 10px;
