@@ -1,72 +1,52 @@
 <!DOCTYPE html>
 
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
-
 	<!-- Set the viewport width to device width for mobile -->
 	<meta name="viewport" content="width=device-width" />
-
-	<title>Welcome to Foundation</title>
-
+	<title>Arvind Srinivasan</title>
 	<!-- Included CSS Files -->
 	<link rel="stylesheet" href="stylesheets/app.css">
-
+	<link rel="stylesheet" href="css/arvnd.css">
 	<script src="javascripts/foundation/modernizr.foundation.js"></script>
-
-	<!-- IE Fix for HTML5 Tags -->
-	<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
 </head>
+
 <body>
 
-	<div class="row">
-		<div class="twelve columns">
-			<h2>Welcome to Foundation</h2>
-			<p>This is version 3.0.9</p>
-			<hr />
+	<div class="horiz-white" style="top: 4%"></div>
+	<div class="horiz-white" style="top: 5%"></div>
+	<div class="horiz-white" style="top: 6%"></div>
+	<div class="vert-white" style="right: 15%"></div>
+	<div class="vert-white" style="right: 16%"></div>
+	<div class="vert-white" style="right: 17%"></div>
+	<div class="vert-white" style="right: 18%"></div>
+	<div class="vert-white" style="right: 19%"></div>
+	<div id="signature" style="display:inline-block">
+		<div class="top-tri" style="position:relative">
+			<div class="tri-top"></div>
+		</div>
+		<div class="A1" style="position:relative">
+			<div class="tri-hole"></div>
+			<div class="tri"></div>
+			<div class="trap"></div>
+		</div>
+		<div class="A2" style="position:relative">
+			<div class="tri-hole"></div>
+			<div class="tri"></div>
+			<div class="trap"></div>
 		</div>
 	</div>
-
+	
 	<div class="row">
-		<div class="eight columns">
-			{{& yield}}
-		</div>
-
-		<div class="four columns">
-			<h4>Getting Started</h4>
-			<p>We're stoked you want to try Foundation! To get going, this file (layout.erb) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-
-			<h4>Other Resources</h4>
-			<p>Once you've exhausted the fun in this document, you should check out:</p>
-			<ul class="disc">
-				<li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
-				<li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
-				<li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
-			</ul>
+		<div class="twelve columns" style="margin-top:5%">
+			<div class="eight columns">
+				{{& yield}}
+			</div>
 		</div>
 	</div>
-
 	<!-- Included JS Files (Uncompressed) -->
 	<script src="javascripts/foundation/jquery.js"></script>
-	<script src="javascripts/foundation/jquery.foundation.accordion.js"></script>
-	<script src="javascripts/foundation/jquery.foundation.alerts.js"></script>
-	<script src="javascripts/foundation/jquery.foundation.buttons.js"></script>
-	<script src="javascripts/foundation/jquery.foundation.forms.js"></script>
-	<script src="javascripts/foundation/jquery.foundation.mediaQueryToggle.js"></script>
-	<script src="javascripts/foundation/jquery.foundation.navigation.js"></script>
-	<script src="javascripts/foundation/jquery.foundation.orbit.js"></script>
-	<script src="javascripts/foundation/jquery.foundation.reveal.js"></script>
-	<script src="javascripts/foundation/jquery.foundation.tabs.js"></script>
-	<script src="javascripts/foundation/jquery.foundation.tooltips.js"></script>
-	<script src="javascripts/foundation/jquery.placeholder.js"></script>
-
   <!-- Application Javascript, safe to override -->
   <script src="javascripts/foundation/app.js"></script>
 </body>

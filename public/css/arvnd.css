@@ -1,0 +1,84 @@
+body{
+	background: url(../images/bg-dark.jpg) repeat;
+}
+.A1, .A2 {
+	margin-top:30px;
+}
+.A1 div, .A2 div {
+	position:absolute;
+}
+.A1 .tri-hole{
+	margin-left:45px;
+	z-index: 2;
+}
+.A1 .trap{
+	z-index: 2;
+	margin-left:27px;
+}
+.A2 .tri-hole{
+	margin-left:81px;
+	z-index: 4;
+}
+.A2 .trap{
+	z-index: 4;
+	margin-left:63px;
+}
+.A2 .tri{
+	z-index:3;
+	margin-left:36px;
+	border-bottom: 120px solid white; 
+}
+.tri {
+	width: 0; 
+	height: 0; 
+	border-bottom: 120px solid darkred; 
+	border-left: 60px solid transparent; 
+	border-right: 60px solid transparent; 
+}
+.trap {
+	height: 0; 
+	width: 67px;
+	margin-top:110px;
+	border-bottom: 20px solid #060227;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
+.tri-hole {
+	margin-top: 60px;
+	width: 0;
+	height: 0;
+	border-bottom: 30px solid #060227;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+}
+.tri-top {
+	position:absolute;
+	margin-top: 3px;
+	width:0;
+	height:0;
+	margin-left: 67px;
+	border-bottom: 24px solid darkred;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+}
+#signature {
+	position:fixed;
+	bottom: 0;
+	right: 0;
+	width: 175px;
+	height: 175px;
+}
+.vert-white{
+	background-color:white;
+	position:fixed;
+	height:100%;
+	z-index: -1;
+	width: 4px;
+}
+.horiz-white{
+	background-color:white;
+	position:fixed;
+	height: 4px;
+	width: 100%;
+	z-index: -1;
+}
