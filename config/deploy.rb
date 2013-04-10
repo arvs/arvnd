@@ -5,7 +5,7 @@ require "mina/rvm"
 
 set :domain, "rumney"
 set :deploy_to, "/srv/www/arvnd.com"
-set :repository, "git://github.com/arvindx007/arvnd.git"
+set :repository, "git://github.com/arvs/arvnd.git"
 set :branch, "master"
 set :rvm_path, "/usr/local/rvm/scripts/rvm"
 set :shared_paths, ["log", "tmp/pids", "tmp/sockets"]
